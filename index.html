@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио студента - достижения и компетенции">
+    <title>Сайт портфолио | Безбородов Николай</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Сайт портфолио</div>
+                <nav>
+                    <a href="#home" class="nav-link active">Главная</a>
+                    <a href="#about" class="nav-link">О себе</a>
+                    <a href="#competencies" class="nav-link">Компетенции</a>
+                    <a href="#works" class="nav-link">Работы</a>
+                    <a href="#docs" class="nav-link">Достижения</a>
+                    <a href="#citizen" class="nav-link">Я гражданин</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-left">
+                    <div class="hero-label">Студент 4 курса</div>
+                    <h1 class="hero-name">Безбородов <span class="hero-highlight">Николай</span></h1>
+                    <div class="hero-meta">
+                        <span class="meta-badge">ГАПОУ СО «ЕКТС»</span>
+                        <span class="meta-badge">09.02.07 Информационные системы</span>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Курс</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-number">ПР-42</div>
+                            <div class="stat-label">Группа</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-number">2026</div>
+                            <div class="stat-label">Выпуск</div>
+                        </div>
+                    </div>
+                    <div class="hero-desc">
+                        <p>Портфолио демонстрирует результаты обучения в колледже: реализованные проекты, профессиональные компетенции, достижения в учебной и внеучебной деятельности.</p>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#works" class="btn-primary">Смотреть проекты <i class="fas fa-arrow-down"></i></a>
+                        <a href="#contacts" class="btn-outline">Связаться </a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-avatar">
+                        <div class="avatar-circle">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Обо мне</span>
+                    <h2 class="section-title">Кто я и что умею</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Образование</h3>
+                        <p>ГАПОУ СО «ЕКТС» • Специальность 09.02.07 «Информационные системы и программирование»</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon"><i class="fas fa-code"></i></div>
+                        <h3>Навыки</h3>
+                        <p>Разработка веб и мобильных приложений, работа с базами данных, системное администрирование, современные технологии программирования</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon"><i class="fas fa-heart"></i></div>
+                        <h3>Личные качества</h3>
+                        <p>Ответственность, внимательность к деталям, быстрое обучение, командная работа, творческое мышление</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competencies Section -->
+        <section class="section competencies-section" id="competencies">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Мои компетенции</span>
+                    <h2 class="section-title">Профессиональные стандарты</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="comp-tabs">
+                    <button class="comp-tab active" data-comp="ok">Общие компетенции</button>
+                    <button class="comp-tab" data-comp="pk">Профессиональные компетенции</button>
+                    <button class="comp-tab" data-comp="dpk">Дополнительные компетенции</button>
+                </div>
+                
+                <div class="comp-panels">
+                    <div class="comp-panel active" id="comp-ok">
+                        <div class="comp-grid">
+                            <div class="comp-item"><span class="comp-code">ОК 01</span><p>Выбирать способы решения задач профессиональной деятельности</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 02</span><p>Использовать современные средства поиска и интерпретации информации</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 03</span><p>Планировать и реализовывать собственное профессиональное развитие</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 04</span><p>Эффективно работать в коллективе и команде</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 05</span><p>Осуществлять устную и письменную коммуникацию</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 06</span><p>Проявлять гражданско-патриотическую позицию</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 07</span><p>Содействовать сохранению окружающей среды</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 08</span><p>Использовать средства физической культуры</p></div>
+                            <div class="comp-item"><span class="comp-code">ОК 09</span><p>Пользоваться профессиональной документацией</p></div>
+                        </div>
+                    </div>
+                    
+                    <div class="comp-panel" id="comp-pk">
+                        <div class="comp-grid pk-grid">
+                            <div class="comp-category">
+                                <h4>Разработка программных модулей</h4>
+                                <div class="comp-item"><span class="comp-code">ПК 1.1-1.6</span><p>Формирование алгоритмов, разработка, отладка, тестирование, рефакторинг, мобильные платформы</p></div>
+                            </div>
+                            <div class="comp-category">
+                                <h4>Интеграция и тестирование</h4>
+                                <div class="comp-item"><span class="comp-code">ПК 2.1-2.5</span><p>Разработка требований, интеграция, отладка, тестовые наборы, инспектирование кода</p></div>
+                            </div>
+                            <div class="comp-category">
+                                <h4>Сопровождение и защита</h4>
+                                <div class="comp-item"><span class="comp-code">ПК 4.1-4.4</span><p>Инсталляция, настройка, модификация, защита ПО</p></div>
+                            </div>
+                            <div class="comp-category">
+                                <h4>Базы данных</h4>
+                                <div class="comp-item"><span class="comp-code">ПК 11.1-11.6</span><p>Проектирование, разработка, администрирование, защита БД</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comp-panel" id="comp-dpk">
+                        <div class="comp-grid">
+                            <div class="comp-item"><span class="comp-code">ДПК 2.1</span><p>Системный анализ, UML, MVC, фреймворки, шаблоны проектирования</p></div>
+                            <div class="comp-item"><span class="comp-code">ДПК 2.2</span><p>Работа с системами контроля версий (Git)</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works Section -->
+        <section class="section works-section" id="works">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Мои проекты</span>
+                    <h2 class="section-title">Работы и разработки</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img"><i class="fas fa-laptop-code"></i></div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>C#</span><span>WPF</span><span>SQL Server</span><span>WebSocket</span>
+                            </div>
+                            <h3>Корпоративный мессенджер для малых и средних компаний</h3>
+                            <p>Мессенджер предназначен для защищённого обмена информацией внутри локальной сети малых и средних компаний.</p>
+                            <button class="project-link" onclick="openProjectModal('electronics')">Подробнее →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Docs Section -->
+        <section class="section docs-section" id="docs">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Портфолио</span>
+                    <h2 class="section-title">Мои достижения</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="gallery-grid" id="galleryGrid"></div>
+            </div>
+        </section>
+
+        <!-- Citizen Section -->
+        <section class="section citizen-section" id="citizen">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Активная позиция</span>
+                    <h2 class="section-title">Я гражданин</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="citizen-slider">
+                    <button class="slide-arrow prev-arrow" id="citizenPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-track" id="citizenSlider">
+                        <div class="slide-item"><img src="gramota1.jpg" alt="Диплом"></div>
+                        <div class="slide-item"><img src="gramota2.jpg" alt="Сертификат"></div>
+                        <div class="slide-item"><img src="expo.jpg" alt="Грамота"></div>
+                    </div>
+                    <button class="slide-arrow next-arrow" id="citizenNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="slider-indicators" id="citizenDots"></div>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section class="section contacts-section" id="contacts">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Свяжитесь со мной</span>
+                    <h2 class="section-title">Контактная информация</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contacts-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div><h4>Email</h4><a href="mailto:hello.worldrtr@mail.ru">hello.worldrtr@mail.ru</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div><h4>Телефон</h4><a href="tel:+79221001919">+7 (922) 100-19-19</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-github"></i></div>
+                        <div><h4>GitHub</h4><a href="https://github.com/Hello-rtr" target="_blank">github.com/Hello-rtr</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Безбородов Николай. Все права защищены.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Hello-rtr" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
